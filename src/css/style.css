@@ -1,0 +1,31 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 18px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    background-image: url(../media/gettyimages_136886425.jpg);
+    background-size: cover;
+    display: flexbox;
+}
+
+#gameDiv {
+    text-align: center;
+}
+#rematch {
+    display: none;
+    width: 200px;
+    height: 50px;
+    margin-top: 12px;
+    margin-left: 43%;
+}
+#highscoreList{
+    background-color: violet;
+    width: 200px;
+    color: black;
+    border: 4px solid black;
+    border-radius: 15px;
+}
+li {
+    padding: 5%;
+}

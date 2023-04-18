@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" type="module"></script>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>RPS Game</title>
+</head>
+<body>
+    <div id="gameDiv">
+        <h1 class="gameText">Welcome to the fight of the century. Rock, Paper, Scissors against a computer! Do you have what it takes to beat a computer? Let's find out!</h1>
+        <h1>Please enter your name</h1>
+        
+        <form>
+            <input type="text" id="playerName" name="playerName">
+            <input id="playerNameBtn" type="submit" value="Spela!">
+        </form>
+        <button id="rematch">Rematch!</button>
+
+        <h1 class="gameText" id="playerText">Player: </h1>
+        <h1 class="gameText" id="computerText">Computer: </h1>
+        <h1 class="gameText" id="resultText">Result: </h1>
+
+        <button class="choiceBtn">✊</button>
+        <button class="choiceBtn">✋</button>
+        <button class="choiceBtn">✌️</button>
+        <h1 id="playerWinsLabel">Player Wins: </h1>
+    </div>
+    
+    <div id="highscoreList">
+        <h1>Highscore</h1>
+        <ol>
+        </ol>
+    </div>
+</body>
+</html>
