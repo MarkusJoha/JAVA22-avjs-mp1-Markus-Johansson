@@ -88,7 +88,7 @@ function checkWinner() {
 }
 
 function rematchCheck() {
-    turns = 0;
+    //turns = 0;
     const rematchBtn = document.querySelector('#rematch');
     rematchBtn.style.display = 'inherit';
 
